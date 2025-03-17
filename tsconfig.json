@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // 确保模块系统是 ESNext
+    "moduleResolution": "Node", // 确保模块解析方式是 Node
+    "target": "ESNext", // 目标 ES 版本
+    "types": ["vite/client", "vue-router"] // 确保包含 vue-router 的类型
+  }
+}
